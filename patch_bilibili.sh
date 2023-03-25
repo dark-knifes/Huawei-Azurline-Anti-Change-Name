@@ -28,7 +28,7 @@ chmod +x apkeep
 download_azurlane () {
     if [ ! -f "AzurLane.apk" ]; then
     # 下载游戏apk的地址,我找不到一个固定的链接,理论上每次更新客户端都要手动改地址
-    url="https://pkg.biligame.com/games/blhx_6.2.1_bilibili_20221107_143634.apk"
+    url="https://appdl6-drcn.dbankcdn.cn/dl/appdl/application/apk/7e/7e70bd9184a643ddaa4fc6cb9403817c/com.bilibili.blhx.huawei.2211101822.apk"
     # 使用wget命令下载apk文件
     curl -o blhx.apk  $url
     fi
