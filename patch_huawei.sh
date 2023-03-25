@@ -22,7 +22,7 @@ echo "Decompile Azur Lane apk"
 java -jar apktool.jar  -f d AzurLane.apk
 
 echo "Copy libs"
-cp -r libs/. AzurLane/lib/
+cp -r lib/. AzurLane/lib/
 
 echo "Patching Azur Lane"
 oncreate=$(grep -n -m 1 'onCreate' AzurLane/smali/com/unity3d/player/UnityPlayerActivity.smali | sed  's/[0-9]*\:\(.*\)/\1/')
