@@ -23,7 +23,7 @@ jobs:
       - name: download
         run:  ./download.sh
       - name: Build apk
-        run:  ./patch_qudao.sh
+        run:  ./patch_huawei.sh
       - name: Zipalign chmod
         run: chmod +x zipalign_sign.sh
       - name: Zipalign and Sign Android release
