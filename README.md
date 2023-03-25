@@ -14,7 +14,7 @@ B服 / 9游版/ 当乐/百度
 
 
 手动修改的教程如下:（中英混杂）（仅介绍单手机教程）
-
+by dark-knifes
 
 ## 0x1 工具
 MT管理器![MT管理器](https://user-images.githubusercontent.com/75507531/227224515-0b86b246-a995-4f65-8c4c-d7c2934ec975.png)
